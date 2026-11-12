@@ -9,6 +9,10 @@ app.get("/product", (req, res) => {
   res.send("This is Product Page");
 })
 
+app.get("/item", (req, res) => {
+  res.send("This is Item Page");
+})
+
 app.get("/health", (req, res) => {
   res.send("Everything is OK");
 })
